@@ -44,5 +44,5 @@ jobs:
           file: 03_devops_basico/conversao-temperatura/src/Dockerfile
           push: true
           tags: |
-            viniciusbrustolin/aula-conversao-temperatura:v1
+            viniciusbrustolin/aula-conversao-temperatura:${{github.run_number}}
             viniciusbrustolin/aula-conversao-temperatura:latest
