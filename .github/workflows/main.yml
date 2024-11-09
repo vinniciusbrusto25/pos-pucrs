@@ -34,7 +34,7 @@ jobs:
       - name: Construção da imagem Docker
         uses: docker/build-push-action@v6.9.0
         with:
-          context: src
+          context: 03_devops_basico/conversao-temperatura/src
           file: Dockerfile
           push: true
           tags: |
