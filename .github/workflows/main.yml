@@ -1,0 +1,27 @@
+name: CI para Conversao Temperatura
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    defaults:
+      run:
+        working-directory: 03_devops_basico/conversao-temperatura
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Rodar uma unica linha de comando
+        run: echo Hello, world!
+
+      - name: Rodar varias linhas de comandos
+        run: |
+          echo Adicione outras acoes para build,
+          echo test, e deploye seu projeto.
