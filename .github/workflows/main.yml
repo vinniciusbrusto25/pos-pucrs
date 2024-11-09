@@ -3,11 +3,10 @@ name: CI para Conversao Temperatura
 on:
   push:
     branches: [main]
-  pull_request:
-    branches: [main]
+  workflow_dispatch:
 
 jobs:
-  build:
+  CI:
     runs-on: ubuntu-latest
 
     defaults:
@@ -18,10 +17,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
 
-      - name: Rodar uma unica linha de comando
-        run: echo Hello, world!
-
-      - name: Rodar varias linhas de comandos
-        run: |
-          echo Adicione outras acoes para build,
-          echo test, e deploye seu projeto.
+      - name: Setup do NodeJS
+        uses: actions/setup-node@v4.1.0
+        with:
+          node-version: 16.14.0
