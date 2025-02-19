@@ -1,13 +1,30 @@
 var express = require('express');
 var router = express.Router();
 
-/* GET users listing. */
+/* GET users lista */
 router.get('/', function(req, res, next) {
-  res.send('Lista de usuarios');
+  res.send('Listagem de TODOS usuarios');
 });
 
-router.get('/1', function(req, res, next) {
-  res.send('Usuario numero 1');
+/* GET users lista */
+router.get('/:id', function(req, res, next) {
+  const id = req.params.id;
+  res.send(`Usuario de ID: ${id}`);
+});
+
+// POST usuario
+router.post('/', function(req, res, next) {
+  res.send('Criar usuario');
+});
+
+// DELETE usuario
+router.delete('/', function(req, res, next) {
+  res.send('Deletar usuario');
+});
+
+// PUT usuario
+router.put('/', function(req, res, next) {
+  res.send('Atualizar usuario');
 });
 
 module.exports = router;
