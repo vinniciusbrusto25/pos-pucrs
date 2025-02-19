@@ -8,14 +8,6 @@
     "imageUrl": "https://s2.glbimg.com/Xbs9qBVgJ4-ycisi5BEJTP0hJhk=/0x0:750x500/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2020/0/D/VTJSi5SZ2NGAJHF2Usrw/190822-jefferson-20bernardes-pmpa-01.jpg"
   },
   {
-    "id": "557e8498-8148-47ba-9028-d12782686617",
-    "name": "Torre Eiffel",
-    "cidade": "Paris",
-    "pais": "França",
-    "descricao": "A frágil e delicada torre de ferro será erguida apesar dos protestos. Os trabalhos duram 2 anos e se desenrolam em 3 etapas, uma vez as fundações construídas : a construção do primeiro andar, terminado em 1° de abril de 1888, a construção do segundo andar, terminado em 14 de agosto de 1888, e por fim, a montagem definitiva até o topo da torre em 31 de março de 1889, quando o monumento é inaugurado. Gustave Eiffel sobe os 1710 degraus da torre, que nesta época tinha 312 metros de altura, para colocar no seu topo a bandeira tricolor.",
-    "imageUrl": "https://cdn.pariscityvision.com/library/image/5144.jpg"
-  },
-  {
     "id": "25123666-9737-486a-b578-5697d0d568d3",
     "name": "Sagrada Familia",
     "cidade": "Barcelona",
@@ -30,5 +22,13 @@
     "pais": "Argentina",
     "descricao": "Lagos gelados",
     "imageUrl": "https://media.gettyimages.com/id/154945245/pt/foto/patag%C3%B4nia.jpg?s=612x612&w=gi&k=20&c=LHxFJdjn8Telj3MG1BvdVACSa3EiqI48RxR9PrCUZDM="
+  },
+  {
+    "id": "8c8b1d1c-09f0-4106-b0ed-296e2b363015",
+    "name": "PUCRS - Campus",
+    "cidade": "Porto Alegre",
+    "pais": "Brasil",
+    "descricao": "Foto prédio 8",
+    "imageUrl": "https://portal.pucrs.br/wp-content/uploads/2024/11/PUCRS-e-Fullbright.png"
   }
 ]
