@@ -1,13 +1,5 @@
 [
   {
-    "id": "e0133863-88f7-49ec-bdd1-37ca8a675dba",
-    "name": "Viaduto dos Açorianos",
-    "cidade": "Porto Alegre",
-    "pais": "Brasil",
-    "descricao": " O Viaduto dos Açorianos é uma importante estrutura viária localizada na cidade de Porto Alegre, no estado do Rio Grande do Sul, Brasil. Também conhecido como Viaduto Otávio Rocha, ele foi inaugurado em 1932 e tem um papel fundamental na ligação entre as regiões central e sul da cidade.  Com uma extensão de aproximadamente 270 metros, o Viaduto dos Açorianos atravessa a Avenida Loureiro da Silva e o Arroio Dilúvio, conectando as áreas do Centro Histórico e do bairro Praia de Belas. Sua construção é caracterizada por pilares de concreto e uma arquitetura marcante, que se tornou um símbolo icônico da cidade.  Além de sua importância como via de tráfego, o viaduto também é conhecido por abrigar o Parque da Harmonia, um espaço verde que oferece aos pedestres uma área de lazer e descanso, com jardins bem cuidados e bancos para apreciar a paisagem urbana ao redor.  O Viaduto dos Açorianos representa não apenas uma infraestrutura de mobilidade urbana, mas também um marco histórico e cultural de Porto Alegre. Sua localização estratégica e sua presença imponente contribuem para a identidade da cidade e para a vida cotidiana dos seus moradores e visitantes.",
-    "imageUrl": "https://s2.glbimg.com/Xbs9qBVgJ4-ycisi5BEJTP0hJhk=/0x0:750x500/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2020/0/D/VTJSi5SZ2NGAJHF2Usrw/190822-jefferson-20bernardes-pmpa-01.jpg"
-  },
-  {
     "id": "25123666-9737-486a-b578-5697d0d568d3",
     "name": "Sagrada Familia",
     "cidade": "Barcelona",
@@ -30,5 +22,13 @@
     "pais": "Brasil",
     "descricao": "Foto prédio 8",
     "imageUrl": "https://portal.pucrs.br/wp-content/uploads/2024/11/PUCRS-e-Fullbright.png"
+  },
+  {
+    "id": "689042d2-e236-4c95-b745-7edafa42a8f7",
+    "name": "Expresso São Miguel",
+    "cidade": "Chapecó",
+    "pais": "Brasil",
+    "descricao": "Barracão",
+    "imageUrl": "https://www.baguete.com.br/cache/image/noticias/2022/12/1671453545_expresso.jpg?w=1110"
   }
 ]
