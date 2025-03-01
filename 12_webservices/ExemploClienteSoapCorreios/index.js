@@ -7,5 +7,13 @@ soap.createClient(url, (err, client) => {
     return;
   }
 
-  console.log(client.describe().AtendeClienteService.AtendeClientePort);
+  //No exercicio o professor consultou o CEP, porem hoje este servico exige autenticacao
+  client.buscaDataAtual((err, result) => {
+    if (err) {
+      console.error(err);
+      return;
+    }
+
+    console.log(result.return);
+  });
 });
