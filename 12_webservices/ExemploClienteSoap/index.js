@@ -7,5 +7,14 @@ soap.createClient(url, (err, client) => {
     return;
   }
 
-  console.log('Desver o WSDL', client.describe().Calculator.CalculatorSoap);
+  const args = { intA: 2, intB: 3 };
+
+  client.Add(args, (err, result) => {
+    if (err) {
+      console.error(err);
+      return;
+    }
+
+    console.log(result);
+  });
 });
