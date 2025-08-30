@@ -1,3 +1,4 @@
+require('dotenv').config();
 const express = require('express')
 const cool = require('cool-ascii-faces')
 const port = process.env.PORT || 3001
