@@ -1,17 +1,16 @@
 const express = require('express')
+const cool = require('cool-ascii-faces')
 const port = process.env.PORT || 3001
 const app = express()
 
 app.get('/', (req, res) => {
-    console.log('New feature');
+    res.send('Hello world')
 })
 
-app.get('/feature', (req, res) => {
-    console.log('feito na main');
+app.get('/cool', (req, res) => {
+    res.send(cool())
 })
-app.get('/feature', (req, res) => {
-    console.log('New feature 2');
-})
+
 app.listen(port, () => {
     console.log(`start listening ${port}`)
 })
