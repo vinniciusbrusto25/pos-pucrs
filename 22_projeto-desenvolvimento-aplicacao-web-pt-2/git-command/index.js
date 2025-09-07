@@ -40,7 +40,7 @@ app.get('/dados', async (req, res) => {
 })
 
 app.get('/', (req, res) => {
-    res.send('Hello world')
+    res.send('<h1 id="title">Hello world</h1>')
 })
 
 app.get('/cool', (req, res) => {
