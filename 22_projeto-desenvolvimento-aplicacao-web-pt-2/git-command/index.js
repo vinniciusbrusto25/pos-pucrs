@@ -1,5 +1,6 @@
 require('dotenv').config();
 const express = require('express')
+const rateLimiter = require('express-rate-limit');
 const pkg = require('pg')
 const cool = require('cool-ascii-faces')
 const port = process.env.PORT || 3001
@@ -12,6 +13,12 @@ const client = new pkg.Client({
     password: process.env.DB_PASS,
     port: process.env.DB_PORT,
     ssl: { rejectUnauthorized: false }
+})
+
+const limiter = rateLimiter.rateLimit({
+  windowMs: 60 * 60 * 1000,
+  max: 1,
+  message: 'Você atingiu o limite máximo de 1 requisição em 24 horas'
 })
 
 async function buscarUsuarios() {
@@ -30,6 +37,8 @@ async function buscarUsuarios() {
   }
 }
 
+app.use(limiter); //assim aplica a todos os endpoints o limitador
+
 app.get('/dados', async (req, res) => {
     try {
       const usuarios = await buscarUsuarios();
@@ -45,6 +54,10 @@ app.get('/', (req, res) => {
 
 app.get('/cool', (req, res) => {
     res.send(cool())
+})
+
+app.get('/welcome', limiter, (req, res) => {
+  res.send('welcome');
 })
 
 app.listen(port, () => {
