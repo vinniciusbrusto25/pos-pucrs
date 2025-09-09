@@ -2,6 +2,7 @@ require('dotenv').config();
 const express = require('express')
 const rateLimiter = require('express-rate-limit');
 const xss = require('xss-clean');
+const helmet = require('helmet')
 const pkg = require('pg')
 const cool = require('cool-ascii-faces')
 const port = process.env.PORT || 3001
@@ -40,6 +41,7 @@ async function buscarUsuarios() {
 
 app.use(limiter); //assim aplica a todos os endpoints o limitador
 app.use(xss());
+app.use(helmet());
 
 app.get('/dados', async (req, res) => {
     try {
