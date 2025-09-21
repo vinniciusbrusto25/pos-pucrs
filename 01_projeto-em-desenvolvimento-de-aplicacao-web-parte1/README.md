@@ -1,4 +1,6 @@
-# Conteúdo visto em aula
+# Projeto em desenvolvimento de aplicação web parte 1
+
+Os seguintes conteúdos foram vistos na aula ministrada pelos professores Edson Moreno e Julio Pereira:
 
 * Apresentação dos professores
 * Apresentação do curso
@@ -38,4 +40,6 @@ Que tipo de framework; Qual protocolo de comunicação usei (REST, SOAP); Estou 
   * Critérios de avaliação
     * Coerência técnica: No levantamento de requisitos do usuário (jornada do usuário), levantei 3 de 10 jornadas/requisitos como sendo os mais importantes, eu preciso então implementar estes 3 requisitos na minha aplicação. Se eu mencionei que as 3 jornadas eram as que mais agregavam valor ao usuário e implementei apenas 1, mais 5 que não eram importantes, terei uma incoerência técnica.
 				
+## Conclusão
 
+A aula mostrou de forma clara, objetiva e didática o que é esperado do aluno, no que diz respeito a forma de avaliação neste curso de pós-graduação, bem como deu dicas com exemplos acerca das possibilidades de construção para tornar a avaliação possível.

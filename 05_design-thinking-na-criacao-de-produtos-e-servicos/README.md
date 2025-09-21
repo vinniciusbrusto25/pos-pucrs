@@ -1,4 +1,6 @@
-# Conteúdo visto em aula
+# Design thinking na criação de produtos e serviços
+
+## Principais assuntos abordados nas aulas
 
 - Design thinking é uma técnica de desenvolvimento de produtos tendo como base o ser humano;
 - Valoriza o processo criativo que é dinâmico e não linear;
@@ -12,4 +14,8 @@
 - Caso da Brahma
   - Como apreciador de uma boa cerveja, achei interessante o que o professor Rique trouxe, onde sua equipe conseguiu alavancar as vendas da Brahma simplesmente por descobrir que as pessoas gostavam de consumir cerveja estupidamente gelada independente da marca. Para isso desenvolveram um Freezer vertical que mantia a cerveja gelada de forma mais eficiente, o que foi uma revolução para a época.
 
-Para concluir, achei legal a aula pois para quem está sempre pensando na parte técnica da coisa (algoritmos, linguagens de programação, infraestrutura, etc.), essa aula proporcionou uma visão mais humana do negócio, da importância de entender nosso cliente e planejar a nossa solução com base em técnicas que valorizem aspectos humanos. A criatividade e a transdisciplinaridade contam muitos pontos aqui.
+## Conclusão
+
+No geral, gostei da aula pois para mim que estou sempre pensando na parte técnica da coisa (algoritmos, linguagens de programação, infraestrutura, etc.), essa aula proporcionou uma visão mais ampla e humana do negócio. 
+
+É de suma importância entender nosso cliente e planejar a nossa solução com base em técnicas que valorizem aspectos humanos. A criatividade e a transdisciplinaridade contam muitos pontos aqui.

@@ -1,7 +1,8 @@
-# Conteúdo visto em aula
+# Segurança de software
 
-- Segurança de Software
-- Aulas com Moisés Brandalise e Avelino Zorzo.
+A disciplina de Segurança de Software foi ministrada pelos professores Moisés Brandalise e Avelino Zorzo.
+
+Seguem abaixo os principais assuntos abordados.
 
 ## Algoritmos de Criptografia
   - Aqui vimos alguns conceitos básicos por trás dos 3 tipos principais de algoritmos de criptografia: AES (simétrica), RSA (assimétrica) e SHA (hash).
@@ -257,3 +258,5 @@ A mensagem que vai cifrada, mesmo que seja interceptada não tem como saber o qu
 Vai um ponteiro para apontar onde tá o objeto BLOB
 
 Destinatário decifra a mensagem, descobre que tem um Blob na store da whatsapp. Verificar o hash, verificar o mac.
+
+## Conclusão
