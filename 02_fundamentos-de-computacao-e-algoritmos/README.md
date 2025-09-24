@@ -364,7 +364,7 @@ Seguem algumas anotações que fiz na aula sobre estratégias de construção:
       - Se tá ordenado (ordem alfabética, p. ex.)
       - Exemplo do dicionário, quero a palavra maçã. vou abrir o livro mais ou menos no meio perto do M, vou dando saltos até chegar perto até chegar no elemento
 					
-## Conclusão
+## Conclusão (minha opinião pessoal)
 
 A minha análise sobre as aulas diz respeito a um sentimento de revisão dos conceitos básicos de programação vistos na graduação. Foi bom revisar estes conceitos considerando duas formas de tratar o assunto bem peculiares mas que se complementam: a visão de alguém de fora do meio acadêmico, no caso o Mário Souto que tem reconhecimento na internet pelo seu canal no youtube e a visão de alguém formado com este propósito mais de educador.
 
