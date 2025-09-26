@@ -51,10 +51,20 @@ A convenção para componentes JSX é declarar os nomes com as iniciais em Maiú
 
 Componentes podem receber dados do "mundo externo". Parâmetro da função é um objeto conhecido como `Props`.
 
+#### Listas
+
+Necessário ter o atributo key em listas.
+
+**Jamais invente de gerar um valor de ID/Key programaticamente.**
+
+#### Eventos
+
+Nomes dos eventos são camelCase, começam com minúsculas.
+
+- onClick -> tem uma função handleClick()
+
+Professor comenta sobre o bubbling (evento sobe na árvore DOM até a raiz e depois ele desce). Também falou de como parar a propagação do evento com `stopPropagation`. Nesse caso, estamos falando de HTML e não de React. O exercício que ilustra é o [demo_react_componentebasico](./exercicios/demo_react_componentebasico).
+
 ## Atividades práticas
 
 No diretório [exercicios](./exercicios/) encontram-se exercícios práticos desenvolvidos durante a aula.
-
-### demo_react_componentebasico
-
-Exercício inicial feito com vite para criação de apps React. Uma SPA simples (ainda sem framework). React puro.
