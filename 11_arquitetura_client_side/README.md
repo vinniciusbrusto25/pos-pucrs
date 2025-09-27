@@ -65,6 +65,16 @@ Nomes dos eventos são camelCase, começam com minúsculas.
 
 Professor comenta sobre o bubbling (evento sobe na árvore DOM até a raiz e depois ele desce). Também falou de como parar a propagação do evento com `stopPropagation`. Nesse caso, estamos falando de HTML e não de React. O exercício que ilustra é o [demo_react_componentebasico](./exercicios/demo_react_componentebasico).
 
+#### Hooks
+
+Hooks são funções que tem um comportamento especial no ciclo de vida dos componentes gerenciados pelo React. Estes hooks estão intimamente relacionados ao ciclo de vida de renderização dos componentes.
+
+Um dos mais famosos é o `useState`.
+
+`useState` -> Função que entra um estado e devolve um novo valor de um outro estado. Nunca altera o estado.
+
+No exemplo construído em [demo_react_usestate](./exercicios/demo_react_usestate), o react não renderiza tudo de novo, apenas altera o estado do componente que configuramos.
+
 ## Atividades práticas
 
 No diretório [exercicios](./exercicios/) encontram-se exercícios práticos desenvolvidos durante a aula.
