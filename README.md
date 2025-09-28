@@ -11,4 +11,4 @@ Repositório das aulas e exercícios.
 - [05 — Design thinking na criação de produtos e serviços](./05_design-thinking-na-criacao-de-produtos-e-servicos/)
 - [06 — Segurança de software](./06_seguranca-de-software/)
 - [07 — Microsserviços](./07_microservicos/)
-- [08 - Programação para web](./08_programacao-para-web/)
+- [08 — Programação para web](./08_programacao-para-web/)
