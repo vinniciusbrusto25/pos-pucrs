@@ -1,66 +1,54 @@
 # Fundamentos de computação e algoritmos
 
-Aulas ministradas pelos professores Mario Souto e Edson Moreno.
-
-Seguem abaixo algumas anotações que achei pertinente das aulas.
+Disciplina ministrada pelos professores Mario Souto e Edson Ifarraguirre Moreno.
 
 ## Escalonamento
-- Vertical
-  - Necessita mais dinheiro		
-- load balancer
-  - horizontal
-- Conteúdo estático
-  - CloudFlare (html, fotos, cache rápido CDN)			
-- Server Side Rendered
-  - Renderizado no servidor (AWS)
-    - EC2 - elastic computer
-    - Erros geram custos também. Importante tratar todos os erros.
-  - Vercel tem interface melhor que a AWS, mas usa AWS por baixo.
+Professor Mario Souto comenta brevemente sobre tipos de escalonamento, que o vertical necessita de maior investimento, e que o horizontal normalmente possui load balancer.
+
+Falou sobre locais especializados em armazenamento de conteúdo estático (html, fotos) como o cloudFlare, além de servir de cache rápido ou CDN.
+
+Também foi comentado sobre "Server Side Rendering" na AWS com EC2, e que nesse aspecto, erros também geram custos. Por erros, entende-se exceções não tratadas.
+
+Professor Mario ainda comenta que a Vercel tem interface melhor que a AWS, mas usa AWS por baixo dos panos.
 
 ## Fila/Queue
-- É mais barato, diz que vai ter 2000 acessos e limita isso
-- É um princípio básico na computação (FIFO) First in First out
-- É um recurso que ajuda a parar de travar aplicações	
+Ainda na primeira parte da disciplina, o professor Mario comenta um pouco sobre fila, que é mais barato, que é um princípio básico da computação (FIFO - first in first out), e é um recurso que ajuda a parar de travar aplicações.
+
+Por exemplo, configura-se uma API a ter no máximo 2 mil acessos, e partir disso fica numa fila da espera.
+
+_Inevitável não pensar aqui nos aplicativos da caixa que tem fila virtual. Um bom exemplo é o aplicativo Loterias Caixa, que usa fila digital quando acontecem grandes eventos que demandam muitos acessos como a Lotofácil de independência ou a mega-sena da virada._
 
 ## Performance e otimização do frontend
-- HTTP Archive (tamanho do peso dos arquivos que trafegam na internet)
-- "_whatsapp trafega menos coisa que um like no instagram_"
-- WPO stats (estatísticas de performance)
-  - Se na aws demora 100 milisegundos a mais p/ carregar perde 1% de venda	
-- UX
-  - usuário precisa ter a sensação de que é rápido
-  - espera passiva e ativa
-    - passiva, exemplo: fila de banco (tempo não passa, dura anos)
-    - ativa, exemplos: joguinho do dinossauro no chrome; apple com saphari tem um "truque" pra parecer mais rápido (tela vai pra baixo); placeholder {imagem} dá impressão que tá carregando
-  - minificar e concatenar arquivos p/ trafegar melhora performance
-  - Routing, pegar servidor mais próxim
-- Computador lento
-  - Professor Mario comentou de build, tempo para buildar que depende de:
-    - processador
-    - hd ssd ou tradicional hdd (ssd, hdd, nvm - mais rápido ainda sem cabo)
-    - placa de vídeo (fazer vídeos, edição etc), para aplicativos móveis a emulação de app na máquian exige muita ram, melhor usar dispositivo físico.
-    - Arquitetura
-      - Apple M1 - revolucionando deixando mais próximo GPU, CPU Cache, etc. componentes
-      - x86 - instruções complexas
-      - ARM - instruções mais simples
+
+Outro assunto abordado pelo professor Mario Souto foi performance.
+
+Para isso, ele chamou atenção para HTTP Archive (tamanho do peso dos arquivos que trafegam na internet) e fez a analogia: "_whatsapp trafega menos coisa que um like no instagram_".
+
+Comentou também sobre WPO stats (estatísticas de performance) e deu um exemplo de cenário do mundo real, onde por exemplo, se uma determinada request demora 100 milisegundos a mais para carregar algo, pode acarretar em perda de 1% de venda (um cenário fictício).
+
+Usuários tem que ter a sensação de que a página está sendo carregada rápida. Se a espera demorar, acrreta em duas possibilidades:
+
+- espera passiva, exemplo: fila de banco (tempo não passa, tedioso);
+- espera ativa, exemplos: joguinho do dinossauro no chrome; apple com saphari tem um "truque" pra parecer mais rápido (tela vai pra baixo); placeholder {imagem} dá impressão que tá carregando...
+
+Professor deu dicas de como melhorar a performance no aspecto de tráfego de dados, como por exemplo:
+
+- minificar e concatenar arquivos p/ trafegar melhora performance;
+- Routing, pegar servidor mais próxima.
 				
 ## Princípios de programação
-- debug - procurar bug
-  - fez o paralelo mexendo nos componentes html da página trocando descrição
-- programação
-  - deu exemplo do Alert no console pra mostrar o que é programação.
-  - deu já um exemplo de programação com um algoritmo que adivinha a idade	
-  - exemplo de código no vscode 
-    - falou do html que é tudo texto
-    - dentro do html botou o código javascript pra mostrar idade
-  - praticando com exemplo de calculadora de valor de distância do Uber 
-    - entrada com inputs
-  - validação (function)
-    - Boa prática no Javascript, usar has ou is para variáveis ou funções que devem ter valores booleanos (_"na verdade isso é boa prática em qualquer linguagem, no Java também, inclusive eu faço isso mas em português... tem/eh"_)
-  - Professor comenta sobre "Fail Fast Validations"
-    - Validar os valores necessários para aplicar a regra de negócio logo no início.
-    - Evita processamento desnecessário e geração de BUGs. Na aws, por exemplo, é cobrado a mais na fatura pela quantia de BUGs ou taxas de falha das aplicações.
-- Falou brevemente de API, api do google maps, que basicamente são códigos prontos para utilizarmos na programação. Alert do javascript é de uma API, e assim por diante.
+
+Nesta aula, alguns conceitos são postos pelo professor Mario. Ele comenta sobre o ato de procurar um bug, que é debug.
+
+Foram dados alguns exemplos básicos de programação, aliando o alert do browser com o console, onde escrevemos um algoritmo que adivinha a idade.
+
+HTML é texto. Dentro desse texto vai javascript.
+
+Também foi trazido um exemplo de algoritmo que calcula o valor para o Uber, baseado na distância a ser percorrida.
+
+O professor comenta sobre a importância de se validar parâmetros necessários para executar determinada rotina antes da execução. Menciona que é boa prática no Javascript, usar _has_ ou _is_ para variáveis ou funções que devem ter valores booleanos (_"na verdade isso é boa prática em qualquer linguagem, no Java também, inclusive eu faço isso mas em português... tem/eh"_).
+
+Professor Mário ainda fala brevemente de APIs, como a do google maps, que basicamente são códigos prontos para utilizarmos na programação. O Alert do javascript é de uma API, e assim por diante.
 
 ## Banco de dados
 Professor Mario comenta sobre banco de dados e faz analogia com uma planilha. Comenta que é exatamente a mesma lógica de banco de dados real.
@@ -76,17 +64,13 @@ O professor monta uma estrutura básica numa planilha:
   - Comentou que existem n formas de resolver um problema. Citou wordpress que é algo que abstrai o banco de dados.
 	
 ## Browser
-Professor comentou sobre os browsers.
+Professor comentou sobre os browsers, que servem para ler/interpretar html, javascript e css. Lidam com requisições (pegar imagem de tal site, o js de tal servidor, etc.).
 
-- lê html, javascript e css.
-- Lida com requisições (pegar imagem de tal site)
-- Histórico (salva o title)
-- Favoritos
-  - Pode ser uma pasta que pode ter outras pastas ou páginas.
-  - Desenvolvemos um protótipo "mini-browser" - Começamos a montar um mini protótipo de browser (03-minibrowser). Segundo o professor Mário Souto, é pra ir mostrando a estrutura de pastas e de dados com base neste exemplo.
-    - Sites
-      - São em geral baseados em links. Dentro de um HTML tenho um link a um arquivo CSS que está no mesmo diretório.
-      - Explicou sobre o ./ que tem no link do CSS. Busque na pasta atual, o arquivo style.css
+Browsers possuem histórico (salva o title), favoritos. Em relação ao "favoritos", pode ser uma pasta que pode ter outras pastas ou páginas.
+
+Começamos a desenvolver um protótipo "mini-browser" em javascript. 
+
+Foi comentado sobre sites, que nada mais são do que links. Dentro de um HTML temos links para arquivos CSS, por exemplo.
 
 ## Estruturas de Dados
 Continuamos no projeto do mini-browser, aproveitando ele para ver um pouco sobre estruturas de dados.
@@ -364,7 +348,7 @@ Seguem algumas anotações que fiz na aula sobre estratégias de construção:
       - Se tá ordenado (ordem alfabética, p. ex.)
       - Exemplo do dicionário, quero a palavra maçã. vou abrir o livro mais ou menos no meio perto do M, vou dando saltos até chegar perto até chegar no elemento
 					
-## Conclusão (minha opinião pessoal)
+## Conclusão
 
 A minha análise sobre as aulas diz respeito a um sentimento de revisão dos conceitos básicos de programação vistos na graduação. Foi bom revisar estes conceitos considerando duas formas de tratar o assunto bem peculiares mas que se complementam: a visão de alguém de fora do meio acadêmico, no caso o Mário Souto que tem reconhecimento na internet pelo seu canal no youtube e a visão de alguém formado com este propósito mais de educador.
 

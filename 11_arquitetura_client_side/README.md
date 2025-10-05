@@ -192,4 +192,4 @@ No diretório [exercicios](./exercicios/) encontram-se exercícios práticos des
 
 ## Conclusão
 
-Os estudos, os exemplos práticos desenvolvidos da arquitetura client-side foram feitos com componentes react. O gerenciamento do todo foi agregado o framework do Next.js.
+Durante os estudos dos exemplos práticos desenvolvidos da arquitetura client-side utilizamos componentes react. Posteriormente, agregamos o Next.js para gerenciar o todo.
