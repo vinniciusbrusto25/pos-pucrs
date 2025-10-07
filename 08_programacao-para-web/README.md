@@ -1,13 +1,6 @@
 # Programação para web
 
-Divido o conteúdo dessa disciplina em duas partes:
-
-* Teoria
-  - A primeira e segunda aula foi visto bastante teoria sobre aplicações web com a professora Andrea Konzen.
-* Prática
-  - Hands-on com o professor Luis Fernando Gonzales
-
-Diante disto, o que descrevo aqui neste documento refere-se mais ao que vi da parte teórica, pois a parte prática contém os exercícios feitos dentro do mesmo diretório.
+Disciplina ministrada pela professora Andrea Konzen e pelo professor Luis Fernando Planella Gonzalez.
 
 ## Histórico
 A professora passou um breve histórico da internet e mencionou 3 fases importantes da web.

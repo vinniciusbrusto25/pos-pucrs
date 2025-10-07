@@ -1,5 +1,9 @@
 # Microserviços
 
+Displina ministrada pelos professores Vinicius Soares e Luis Fernando Planella.
+
+## Introdução
+
 Microsserviços nasceram devido a dificuldade de escalabilidade das aplicações construídas de forma tradicional, os chamados monolitos.
 
 _"Numa das empresas que atuei, era tudo monolito, desde das aplicações Web até as aplicações Desktop. Toda e qualquer manutenção exigia uma liberação completa, ou atualização completa do sistema todo. Tempos depois quando entrei em outra empresa que utilizava microserviços, percebi que dar manutenção ficava muito mais tranquilo."_
@@ -325,5 +329,8 @@ Os comandos são ligados aos eventos. Por exemplo, para o evento contrato ativad
 ## Coreografia x Orquestração de Serviços
 A coreografia é mais lenta, mais demorada. Já a orquestração define ordens de eventos que devem ser disparados em sequencia.
 
+## Conclusão
 
+Um ponto que me chama atenção é o fato de que um microserviço deve possuir também um banco próprio. Serviços interagem entre si consumindo seus endpoints, e não seus bancos de dados. Se um serviço A consome o banco de dados de um serviço B, isso não é arquitetura de microserviços.
 
+Trabalhei por muito tempo com aplicações desktop delphi, e geralmente eram grandes monolitos. Uma alteração simples, ocasionava uma liberação completa da aplicação inteira, facilitando a ocorrência de BUGs e dívidas técnicas. Com microserviços especializados e com pouca responsabilidade, o trabalho de manutenção diminui, ou fica mais eficiente.

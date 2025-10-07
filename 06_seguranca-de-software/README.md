@@ -1,6 +1,6 @@
 # Segurança de software
 
-A disciplina de Segurança de Software foi ministrada pelos professores Moisés Brandalise e Avelino Zorzo.
+A disciplina de Segurança de Software foi ministrada pelos professores Moisés Brandalise e Avelino Francisco Zorzo.
 
 Seguem abaixo os principais assuntos abordados.
 
@@ -260,3 +260,6 @@ Vai um ponteiro para apontar onde tá o objeto BLOB
 Destinatário decifra a mensagem, descobre que tem um Blob na store da whatsapp. Verificar o hash, verificar o mac.
 
 ## Conclusão
+A disciplina foi importante para aprimorar os conhecimentos acerca de segurança de software. Particularmente, gostei de entender mais a respeito das camadas de segurança envolvidas com o whatsapp (criptografia de ponta a ponta).
+
+Outro ponto que destaco, é que felizmente, muitas das práticas vistas aqui, utilizamos no nosso dia a dia no trabalho. Active directory é algo muito usado hoje em dia no mundo corporativo, bem como uso de VPNs.
