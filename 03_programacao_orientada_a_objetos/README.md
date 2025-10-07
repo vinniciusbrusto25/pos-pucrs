@@ -1,10 +1,10 @@
 # Programação orientada a objetos
 
-Disciplina ministrada pelos professores Alessandro Valério e Edson Moreno.
+Disciplina ministrada pelos professores Alessandro Valério e Edson Ifarraguirre Moreno.
 
-Seguem anotações referentes ao conteúdo visto em aula, bem como o fechamento da disciplina.
+## POO
 
-Vimos sobre:
+Tópicos abordados, no meu caso, revisados:
 - Classes 
 - Herança
 - Polimorfismo
@@ -14,7 +14,6 @@ Vimos sobre:
 
 Além disso, exploramos `filter`, `map` e `reduce`, além de construtores de tipos. ​
 
-## POO
 A POO é um paradigma que foca em objetos ao invés de funções. ​
 
 Linguagens como Java, C++, Python e JavaScript implementam a POO, mas nenhuma é puramente orientada a objetos. ​
@@ -90,10 +89,10 @@ Funções assíncronas permitem a execução de operações sem bloquear o fluxo
 Callbacks e promises são usados para gerenciar a execução assíncrona, com promises oferecendo um controle mais limpo. ​
 Async/await facilita o uso de promises, permitindo que o código aguarde a resolução de operações assíncronas. ​
 
-## Conclusão (minha opinião pessoal)
+## Conclusão
 
 Comecei a programar em Delphi em 2017, e naquela época não tinha ainda muita noção das vantagens da POO pois apesar do Delphi prover orientação a objetos, o estilo de programação onde eu trabalhei (e meu conhecimento também) era muito procedural.
 
-Em 2021 comecei a trabalhar com Java e aos poucos a OO foi fazendo mais sentido pra mim a medida em que eu me aprofundava mais em Clean Architecture. O uso de contratos, isolamento das camadas de negócio com as tecnologias, injeção de dependências me fez abrir os horizontes para a OO de modo que hoje isso faz parte do meu cotidiano.
+Em 2021 comecei a trabalhar com Java e aos poucos a OO foi fazendo mais sentido a mim na medida em que eu me aprofundava mais em Clean Architecture. O uso de contratos, isolamento das camadas de negócio com as tecnologias, injeção de dependências me fez abrir os horizontes para a OO de modo que hoje isso faz parte do meu cotidiano.
 
 De 2024 para cá, venho estudando um pouco mais de WEB (javascript, react, next, etc.) e foi bacana essa aula para ver como podemos "simular" a OO em Javascript, já que para a linguagem isso não é nativo do mesmo modo como em Java. Aqui parece utilizar um conceito muito mais de herança (com o arquétipo prototype) e não há nenhum problema nisso. A aula do professor Alessandro foi bem descontraída e proveitosa. O professor Edson trouxe a parte acadêmica também de forma eficiente. De modo geral, foi muito bom relembrar todos esses conceitos de OO que para mim estão bem consolidados, acrescentando coisas específicas do mundo Node como promises.
