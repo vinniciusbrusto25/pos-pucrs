@@ -113,7 +113,7 @@ Outro ponto interessante, ainda seguindo nessa linha, é que como não há tecla
 - Design system se destina a todos que irão trabalhar no sistema, seja designers, seja desenvolvedores. Professor citou o Figma para design system.
 - O design system que o professor mostrou lista todos os ícones usados na aplicação. Quem gerencia isso é o designer. Supondo que alguém peça um novo ícone, o designer então vai alterar o design system adicionando o novo ícone.
 - Professor mostrou um pouco da operação do Figma do design system do mp-rs
-- No design system, são colocados exemplos de cada componente do sistema: botões, janelas, telas, formulários, listagens, tooltips, balões, etc. Tudo que é visual, fica definido no design system. Isso me lembra aquele esquema de "identidade visual" que comentaram na ESM.
+- No design system, são colocados exemplos de cada componente do sistema: botões, janelas, telas, formulários, listagens, tooltips, balões, etc. Tudo que é visual, fica definido no design system. Isso me lembra aquele esquema de "identidade visual" que a empresa precisa ter (padrão de cores, etc.).
 - No final das contas o design system é uma documentação dos componentes visuais utilizados no sistema.
 - No design systema, defininmos todas as possibilidades, por exemplo, de exibição de um campo de texto num formulário. Como ele irá aparecer quando estiver desabilitado, com foco, obrigatório, etc. E são inúmeras variações.
 
