@@ -38,3 +38,11 @@ Os professores comentaram alguns aspectos relacionados a programação reativa, 
 - Padrões de design reativos
 - Operadores reativos.
   - Map -> Transformar em fluxo de dados, aplica uma operação que transforma os dados.
+
+## Atividades práticas
+
+Os exercícios praticados em aula estão disponíveis no diretório [exercicios](./exercicios/).
+
+## Conclusão
+
+Vimos um pouco de Express, que facilita muito a utilização de REST em servidores node.js.
