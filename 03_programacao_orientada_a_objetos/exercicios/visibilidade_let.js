@@ -7,6 +7,6 @@ function Pessoa(anoNascimento, nomeParam) {
     }
 }
 
-const p1 = new Pessoa(1906, 'Eneas');
+const p1 = new Pessoa(1991, 'Vinicius');
 p1.ola();
 console.log(p1);
