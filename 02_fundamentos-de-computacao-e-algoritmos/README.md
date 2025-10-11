@@ -2,7 +2,7 @@
 
 Disciplina ministrada pelos professores Mario Souto e Edson Ifarraguirre Moreno.
 
-## Exercicios
+## Exercícios
 
 - [calcula-idade](./exercicios/1_aulas_mario_souto/01-calcula-idade.html): primeiro contado da disciplina e do curso com algoritmos e programação;
 - [app-corrida](./exercicios/1_aulas_mario_souto/02-calcula-app-de-corrida.html): exemplo de algoritmo um pouco mais complexo com entradas, processamento e saída;

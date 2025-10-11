@@ -2,7 +2,7 @@
 
 Disciplina ministrada pelos professores Alessandro Valério e Edson Ifarraguirre Moreno.
 
-## Exercicios
+## Exercícios
 
 - [classes](./exercicios/classes.js): demonstração da criação de classes e "polimorfismo" em Javascript;
 - [funcoes construtoras](./exercicios/funcoesConstrutoras.js): demonstração das funções construtoras;
